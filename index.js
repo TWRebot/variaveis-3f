@@ -1,9 +1,12 @@
-const idade = 17;
+let idade = 17;
 const anoNascimento = 2007;
 let anoAtual = 2024;
+const nomeCompleto = "Luis Gutierrez"
 
+console.log("Meu nome é " + nomeCompleto + " nascido no ano de " + anoNascimento + " e no ano atual" + " completo " + idade + " anos");
 anoAtual = anoAtual + 1;
+console.log (anoAtual);
 
-  console.log (idade);
-  console.log (anoAtual);
-                                              
+idade = idade + 1;
+console.log (idade);
+
