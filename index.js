@@ -12,11 +12,11 @@ console.log (idade);
 
 //Agência de viagens Madrid New York Buenos Aires Tokyo Barcelona 
 const listaDeDestinos = new Array(
-  "Madrid",
-  "Londres",
-  "Manchester",
-   "Tokyo",
-  "Barcelona"
+  " Madrid",
+  " Londres",
+  " Manchester",
+   " Tokyo",
+  " Barcelona"
 );
 
 console.log(listaDeDestinos);
@@ -27,3 +27,14 @@ listaDeDestinos.push("Curitiba")
 listaDeDestinos.push("Rio Branco");
 listaDeDestinos.push("Berlin");
 console.log(listaDeDestinos);
+
+const idadeComprador = 17;
+
+if(idadeComprador<18) {
+  console.log("infelizmente não podemos vender passagens para menores de idade");
+}
+if(idadeComprador >=18) {
+  console.log("Comprador maior de idade");
+
+  console.log("Destinos disponíveis: " + listaDeDestinos);
+} 
