@@ -30,6 +30,19 @@ listaDeDestinos.push("Rio Branco");
 listaDeDestinos.push("Berlin");
 console.log(listaDeDestinos);
 
+const loginCerto = "luis";
+const senhaCerta = 1234;
+
+var login = entrada("Qual é seu login?: ");
+var senha = entrada("Digite sua senha: ");
+
+while(login != loginCerto || senha != senhaCerta){
+  console.log ("Login ou senha incorretos");
+  login = entrada("Qual é o seu login?: ");
+  senha = entrada("Digite sua senha: ")
+}
+
+
 var nomeComprador = entrada("Digite seu nome: ");
 var idadeComprador = entrada("Digite sua idade: ");
 
