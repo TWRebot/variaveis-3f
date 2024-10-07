@@ -13,6 +13,10 @@ idade = idade + 1;
 console.log (idade);
 
 //Agência de viagens Madrid New York Buenos Aires Tokyo Barcelona 
+console.log("");
+console.log("-------------------------------");
+console.log("------âgencia de viagens-------");
+console.log("");
 const listaDeDestinos = new Array(
   " Madrid",
   " Londres",
@@ -20,7 +24,7 @@ const listaDeDestinos = new Array(
    " Tokyo",
   " Barcelona"
 );
-
+console.log("");
 console.log(listaDeDestinos);
 console.log(listaDeDestinos[3]);
 listaDeDestinos.push("Coronel Vivida");
@@ -29,6 +33,8 @@ listaDeDestinos.push("Curitiba")
 listaDeDestinos.push("Rio Branco");
 listaDeDestinos.push("Berlin");
 console.log(listaDeDestinos);
+console.log(" " );
+
 
 const loginCerto = "luis";
 const senhaCerta = 1234;
@@ -63,5 +69,59 @@ if(idadeComprador >=18) {
   }
   var destino = entrada("Digite o numero que corresponde ao destino selecionado (0-8)");
   console.log(`destino selecionado foi: ${listaDeDestinos[destino]}`);
-  } 
+  }
 
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
